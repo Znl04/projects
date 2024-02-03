@@ -7,6 +7,7 @@ header {
 }
 header nav {
   background-color: #212121;
+  height: 44px;
 }
 .menu {
   padding: 0;
@@ -23,8 +24,6 @@ header nav {
   text-decoration: none;
   border-right: 2px dotted black;
   padding-right: 46px;
-}
-.menu .menu_item {
 }
 
 .subheader {
@@ -115,4 +114,55 @@ header nav {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 18px;
+}
+.causes {
+  padding: 18px 0 41px 0;
+}
+.causes .causes_title {
+  margin: 0 auto;
+  text-align: center;
+  width: 112px;
+  height: 24px;
+  background-color: #222222;
+  font-size: 11px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 4px;
+}
+.causes .causes_subtitle {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #222222;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.causes .card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+.causes .cards_logo {
+  display: flex;
+  height: 113px;
+  width: 113px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+
+.causes .cards_descr {
+  max-width: 399px;
+}
+.causes .descr_title {
+  font-size: 17px;
+  color: #1eacc7;
+}
+.causes .descr_subtitle {
+  font-size: 15px;
+  color: #202020;
+  line-height: 21px;
 }
