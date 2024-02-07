@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d13fe200-10e0-4428-b7e9-897d702c5c22" name="Changes" comment="builded a structure of causes section">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/p1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d13fe200-10e0-4428-b7e9-897d702c5c22" name="Changes" comment="builded a structure of causes section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +39,7 @@
       <updated>1706882209264</updated>
       <workItem from="1706882210255" duration="9000" />
       <workItem from="1706882552268" duration="196000" />
+      <workItem from="1707309010385" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="builded a structure of causes section">
       <option name="closed" value="true" />
