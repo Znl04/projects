@@ -251,5 +251,49 @@ header
   color: white
   margin-bottom: 54px
 
+.conditions
+  padding: 66px 0 87px 0
+  &_block
+    margin: 33px 0 60px 0
+    &_nmb
+      margin-bottom: 0
+    &_title
+      color: $main-color
+      font-size: 22px
+      line-height: 24px
+      &_red
+        color: $second-color
+    &_list
+      margin-top: 20px
+      list-style: none
+      padding-left: 50px
+      line-height: 24px
+      li
+        position: relative
+        font-size: 17px
+        color: #222222
+        margin-bottom: 10px
+        &:before
+          position: absolute
+          left: -32px
+          top: 3px
+          display: block
+          content: ''
+          background: url(../icons/check_blue.svg) center (center / cover) no-repeat
+          width: 20px
+          height: 20px
+      li.red_check
+        &:before
+          position: absolute
+          left: -32px
+          top: 3px
+          display: block
+          content: ''
+          background: url(../icons/check_red.svg) center (center / cover) no-repeat
+          width: 20px
+          height: 20px
 
-
+    &_descr
+      font-size: 17px
+      font-weight: 300
+      color: $main-color
