@@ -318,25 +318,71 @@ header
 
 footer
   padding: 11px 22px
-  span
-    display: block
-    margin: 0 auto
-    width: 300px
-    height: 7px
-    background-color: #1FBAD6
-  .social_medias
-    width: 160px
-    display: flex
-    justify-content: space-between
-    &_item
+  position: relative
+  .footer_block
+    display: inline
+    span
+      display: block
+      margin: 0 auto
+      width: 300px
+      height: 7px
+      background-color: #1FBAD6
+    .social_medias
+      position: absolute
+      width: 160px
       display: flex
-      justify-content: center
-      align-items: center
-      margin: 0 4px
-      width: 32px
-      height: 32px
-      background-color: black
-      border-radius: 100%
-      i
-        color: white
-
+      justify-content: space-between
+      &_item
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 0 4px
+        width: 32px
+        height: 32px
+        background-color: black
+        border-radius: 100%
+        i
+          color: white
+    .footer_links
+      width: 362px
+      margin: 0 auto
+      margin-top: 24px
+      &_list
+        display: flex
+        justify-content: space-between
+        list-style: none
+        margin: 0
+        &_item
+          font-size: 15px
+          font-weight: 300
+          color: #070716
+          text-decoration: none
+    .sub_footer_links
+      width: 390px
+      margin: 0 auto
+      margin-top: 13px
+      &_list
+        display: flex
+        justify-content: space-between
+        list-style: none
+        text-transform: uppercase
+        margin: 0
+        &_item
+          font-size: 11px
+          font-weight: 300
+          color: #999999
+          text-transform: uppercase
+          text-decoration: none
+    .links_to_app
+      position: absolute
+      right: 0
+      top: 0
+      margin-top: 38px
+  .page_lang
+    display: block
+    text-align: center
+    font-size: 11px
+    margin-top: 15px
+    color: $main-color
+    cursor: pointer
+    text-decoration: none
