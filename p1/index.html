@@ -22,19 +22,25 @@
                     <li class="menu_item"><a href="#" class="menu_link menu_link_wb">Оставить заявку</a></li>
                 </ul>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
         <div class="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="#" class="subheader_logo"><img src="./icons/uber_logo.png" alt="logotype"></a>
-                        <div class="subheader_text">Официальный партнер Uber в Москве</div>
+                        <div class="xs_hidden subheader_text">Официальный партнер Uber в Москве</div>
                     </div>
-                    <div class="col-md-3 offset-md-2 col-lg-3 offset-lg-2 col-xl-2 offset-xl-3">
+                    <div class="xs_hidden col-md-3 offset-md-2 col-lg-3 offset-lg-2 col-xl-2 offset-xl-3">
                         <div class="call_text">Звоните нам ежедневно</div>
                         <a href="tel:+74957970988" class="call_number">8 495 797 09 88</a>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-6 col-md-2">
+                        <a href="tel:+74957970988" class="xs_visible call_number">8 495 797 09 88</a>
                         <button class="call_order">Заказать звонок</button>
                     </div>
                 </div>
@@ -210,7 +216,7 @@
                                 <li>Работа только по безналичному расчету</li>
                                 <li>Деньги перечисляем на карту водителю или наличны-<br>ми в офисе</li>
                             </ul>
-                            <div class="conditions_block_descr">В день заработок составляет 7000-12000р + бонус 3000 <br>рублей</div>
+                            <div class="conditions_block_descr">В день заработок составляет 7000-12000р + бонус 3000 рублей</div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -267,7 +273,7 @@
     <footer>
         <div class="container-fluid">
             <span class="footer_element"></span>
-            <div class="footer_block">
+            <div class="footer_block xs_hidden_footer">
                 <div class="social_medias">
                     <div class="social_medias_item">
                         <i class="fab fa-facebook-f"></i>
@@ -310,9 +316,54 @@
                         <img src="./icons/windows_store.png" alt="Windows store">
                     </a>
                 </div>
-
             </div>
             
+            <div class="xs_visible_footer footer_block">
+                
+                <div class="footer_links">
+                    <div class="footer_links_main">
+                        <a href="#">на главную</a>
+                        <a href="#">города</a>
+                        <a href="#">для водителей</a>
+                    </div>
+                    <div class="footer_links_sub">
+                        <a href="#">центр поддержки</a>
+                        <a href="#">вакансии</a>
+                        <a href="#">разработчики</a>
+                        <a href="#">блог</a>
+                        <a href="#">о нас</a>
+                    </div>
+                    <a class="page_lang">Русский</a>
+                </div>
+
+                <div class="social_medias">
+                    <div class="social_medias_item">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social_medias_item">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="social_medias_item">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="social_medias_item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+
+                <div class="footer_mobile">
+                    <a href="#">
+                        <img src="./icons/app_store.png" alt="App Store">
+                    </a>
+                    <a href="#">
+                        <img src="./icons/google_play.png" alt="Google play">
+                    </a>
+                    <a href="#">
+                        <img src="./icons/windows_store.png" alt="Windows store">
+                    </a>
+                </div>
+            </div>
+
         </div>
     </footer>
 

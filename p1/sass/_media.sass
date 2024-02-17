@@ -90,7 +90,7 @@
   footer
     .footer_block
       .social_medias
-        margin: 0
+        margin: 0 auto
         align-items: center
       .footer_mobile
         margin-top: 0
@@ -100,3 +100,136 @@
         img
           margin: 0
           width: 75px
+
+
+@media (max-width: 767px)
+  .menu
+    padding: 20px 15px
+    position: fixed
+    top: 0
+    right: 0
+    left: -100%
+    width: 50%
+    height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background-color: rgba(0, 0, 0, .8)
+    transition: 0.6s all
+    &_active
+      left: 0
+    &_item
+      padding-right: 0
+      border: none
+      margin-top: 10px
+      .menu_link
+        font-size: 20px !important
+        padding-right: 0 !important
+  .hamburger
+    display: block
+    position: absolute
+    right: 15px
+    top: 50%
+    transform: translateY(-50%)
+    width: 26px
+    height: 12px
+    span
+      display: block
+      height: 2px
+      width: 100%
+      background-color: #fff
+      margin-bottom: 2px
+      transition: 0.5 all
+    &_active
+      span
+        margin-bottom: -2px
+        &:first-child
+          transform: translateY(3px) rotate(-45%)
+        &:nth-child(2)
+          display: none
+        &:last-child
+          transform: translateY(3px) rotate(45%)
+  .adv
+    &_image
+      img
+        width: 100%  
+  .xs_hidden
+    display: none
+  .xs_visible_footer
+    display: none !important
+  .subheader
+    .call_number
+      color: white
+      font-size: 15px
+      text-align: center
+      font-weight: 400
+      text-transform: uppercase
+      margin-bottom: 10px !important
+  button.call_order 
+    width: 200px !important
+    height: 40px !important
+    margin: 0 auto
+    display: block !important
+    margin-top: 10px !important
+  .promo
+    &_header
+      line-height: 32px
+  .label_title
+    font-size: 30px
+  footer
+    .xs_visible_footer
+      display: none  
+  footer
+    .xs_hidden
+      display: none      
+
+@media (max-width: 577px)
+  .adv
+    min-height: 760px
+    padding-bottom: 0 !important
+  .conditions_block
+    &_title
+      font-size: 18px
+    &_list
+      li
+        font-size: 14px
+    &_descr
+      font-size: 14px
+  .label_title
+    font-size: 21px
+  .subheader
+    .call_order
+      width: 100% !important
+      font-size: 11px !important
+  footer
+    padding: 0
+    .xs_hidden_footer
+      display: none !important
+    .xs_visible_footer
+      display: flex !important
+      flex-direction: column
+      padding: 15px
+    .footer_block
+      .footer_links
+        width: auto
+        &_main
+          a
+            font-size: 10px !important
+        &_sub
+          a
+            font-size: 8px !important
+        .page_lang
+          margin-bottom: 10px !important
+      .social_media
+        display: block !important
+        margin: 0px auto !important 
+      .footer_mobile
+        width: auto
+        display: flex !important
+        flex-direction: row !important
+        margin: 0 !important
+        justify-content: center
+        a
+          margin-left: 4px
+    
