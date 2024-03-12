@@ -1,0 +1,123 @@
+@media (max-width: 992px) {
+  .promo .promo__header {
+    font-size: 34px;
+  }
+  .promo .promo__subheader {
+    font-size: 19px;
+  }
+  .button_main {
+    width: 255px;
+    height: 45px;
+    font-size: 13px;
+  }
+  .promo .promo__link {
+    font-size: 13px;
+  }
+  .advantages .advantages__wrapper .advantages__item {
+    width: 235px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .container {
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .header__logo {
+    width: 175px;
+  }
+  .header .header__offical {
+    font-size: 11px;
+  }
+  .header .header__offical span {
+    font-size: 13px;
+    margin-top: 4px;
+  }
+  .header .header__phone {
+    display: none;
+  }
+  .promo .promo__header {
+    font-size: 22px;
+  }
+  .promo .promo__subheader {
+    font-size: 16px;
+  }
+  .promo .promo__icons {
+    margin-top: 50px;
+    width: 355px;
+  }
+  .button_main {
+    width: 200px;
+    height: 40px;
+    font-size: 11px;
+    margin-top: 46px;
+  }
+  .promo .promo__link {
+    font-size: 11px;
+  }
+  .advantages .advantages__wrapper {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages .advantages__wrapper .advantages__item {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 424px) {
+  .header .header__offical {
+    display: none;
+  }
+  .promo .promo__header {
+    font-size: 19px;
+  }
+  .promo .promo__subheader {
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .promo .promo__icons {
+    margin-top: 34px;
+  }
+  .promo .promo__icon img {
+    width: 30px;
+  }
+  .promo .promo__icon {
+    font-size: 12px;
+  }
+  .button_main {
+    margin-top: 37px;
+  }
+  
+}
+
+@media (max-width: 375px) {
+  .header .header__logo img {
+    width: 85%;
+  }
+  .button {
+    width: 140px;
+    font-size: 11px;
+  }
+  .promo .promo__header {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .promo .promo__subheader {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  .promo .promo__icons {
+    margin-top: 12px;
+    flex-direction: column;
+    align-items: end;
+  }
+  .promo .promo__icon {
+    margin-top: 16px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
