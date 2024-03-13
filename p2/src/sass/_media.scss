@@ -65,6 +65,15 @@
   .advantages .advantages__wrapper .advantages__item {
     margin-top: 40px;
   }
+  .title_left {
+    font-size: 24px !important;
+    line-height: 33px !important;
+  }
+  .button_submit {
+    width: 60%;
+    height: 45px;
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 424px) {
@@ -90,7 +99,6 @@
   .button_main {
     margin-top: 37px;
   }
-  
 }
 
 @media (max-width: 375px) {
@@ -119,5 +127,15 @@
   }
   .title {
     font-size: 20px;
+  }
+  .title_left {
+    font-size: 19px !important;
+  }
+  .consultation .consultation__descr {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .feed-form input {
+    height: 45px !important;
   }
 }
