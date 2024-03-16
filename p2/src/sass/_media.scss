@@ -74,6 +74,11 @@
     height: 45px;
     font-size: 11px;
   }
+  .carousel .carousel__inner {
+    max-width: 580px;
+    box-sizing: border-box;
+    width: 100%;
+  }
 }
 
 @media (max-width: 424px) {

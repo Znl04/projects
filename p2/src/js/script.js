@@ -8,7 +8,15 @@ $(document).ready(function(){
         {
           breakpoint: 1024,
           settings: {
-          
+            arrows: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 769,
+          settings: {
+            arrows: false,
+            dots: true
           }
         }
       ]
