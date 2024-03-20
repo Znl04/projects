@@ -39,12 +39,21 @@
 }
 .catalog .catalog__content {
   margin-top: 60px;
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.catalog .catalog__content_active {
+  display: flex;
 }
 .catalog .catalog-item {
   width: 300px;
   min-height: 440px;
   border: 2px solid #e8e8e8;
   padding: 20px 20px 26px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: 0.5s, all;
 }
 .catalog .catalog-item img {
   display: block;
@@ -74,6 +83,7 @@
   font-weight: 400;
   text-decoration: underline;
   text-align: center;
+  transition: 0.5s, all;
 }
 .catalog .catalog-item .catalog-item__link:hover {
   color: #c70101;
@@ -100,4 +110,64 @@
   color: #050505;
   font-size: 20px;
   font-weight: 700;
+}
+.catalog .catalog-item .catalog-item__wrapper {
+  display: flex;
+  width: calc(200% + 40px);
+}
+.catalog .catalog-item__content {
+  width: 50%;
+  margin-right: 0px;
+  transform: translateX(-100%);
+  transition: 0.5s, all;
+}
+.catalog .catalog-item__content_active {
+  transform: translateX(0%);
+  margin-right: 20px;
+}
+.catalog .catalog-item__more-list {
+  position: relative;
+  width: 50%;
+  margin-left: 20px;
+  transform: translate(0%);
+  transition: 0.5s, all;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+.catalog .catalog-item__more-list_active {
+  transform: translateX(-100%);
+  margin-left: 0px;
+  padding-right: 20px;
+}
+.catalog .catalog-item__more-list li {
+  position: relative;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.catalog .catalog-item__more-list li::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #c70101;
+  left: -12px;
+  top: 7px;
+}
+.catalog .catalog-item .catalog-item__back {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(calc(-50% - 19px));
+  display: block;
+  color: #c70101;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.catalog .catalog-item .catalog-item__back:hover {
+  color: #c70101;
 }
