@@ -87,6 +87,20 @@
     box-sizing: border-box;
     width: 100%;
   }
+  .catalog .catalog__tabs {
+    flex-direction: column;
+  }
+  .catalog__tabs li {
+    margin-bottom: 18px !important;
+  }
+  .catalog .catalog-item {
+    margin: 20px;
+  }
+  .catalog .catalog__content {
+    justify-content: center !important;
+    margin-top: 40px;
+    padding: 0;
+  }
 }
 
 @media (max-width: 424px) {
@@ -150,5 +164,14 @@
   }
   .feed-form input {
     height: 40px !important;
+  }
+  .catalog .catalog__content {
+    margin-top: 20px !important;
+  }
+  .catalog .catalog-item__old-price {
+    font-size: 13px !important;
+  }
+  .catalog .catalog-item__price {
+    font-size: 17px !important;
   }
 }
