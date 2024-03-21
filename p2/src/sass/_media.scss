@@ -22,6 +22,14 @@
   .container {
     padding: 0 10px 0 10px;
   }
+  .catalog__tabs .catalog__tab {
+    width: 165px !important;
+    font-size: 15px !important;
+  }
+  .catalog .catalog__content_active {
+    justify-content: center;
+    padding: 0 40px 0 40px;
+  }
 }
 
 @media (max-width: 768px) {
