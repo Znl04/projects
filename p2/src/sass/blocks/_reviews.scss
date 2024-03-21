@@ -1,0 +1,39 @@
+.reviews {
+  padding-bottom: 80px; ;
+}
+.reviews .reviews__client {
+  margin-top: 60px;
+}
+.reviews .reviews__wrapper {
+  display: flex;
+  margin-top: 60px;
+}
+.reviews .reviews__wrapper .reviews__ava {
+  margin-right: 61px;
+}
+.reviews .reviews-text {
+  width: 680px;
+} 
+.reviews .reviews-text .reviews-text__name {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.reviews .reviews-text .reviews-text__name span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #646464;
+}
+.reviews .reviews-text .reviews-text__name__descr {
+  width: 660px;
+  font-size: 16px;
+  color: #0d0d0d;
+  font-weight: 300;
+  line-height: 20px;
+}
+.reviews .reviews-text .reviews-text__descr .descr_mtb {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
