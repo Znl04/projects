@@ -111,6 +111,17 @@
   .reviews .reviews__wrapper .reviews__ava img {
     width: 100%;
   }
+  .footer__info {
+    max-width: 425px;
+  }
+  .footer .footer__addr {
+    font-size: 17px !important;
+    margin-bottom: 27px  !important;
+  }
+  .footer .footer__phone {
+    font-size: 17px !important;
+    margin-bottom: 33px !important;
+  }
 }
 
 @media (max-width: 424px) {
@@ -136,6 +147,10 @@
   .button_main {
     margin-top: 37px;
   }
+  .footer__info {
+    max-width: 100%;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -183,5 +198,24 @@
   }
   .catalog .catalog-item__price {
     font-size: 17px !important;
+  }
+  .footer .footer__info .footer__social {
+    justify-content: space-between !important;
+    width: 170px !important;
+  }
+  .footer .footer__addr {
+    font-size: 14px !important;
+    margin-bottom: 15px !important;
+  }
+  .footer .footer__phone {
+    font-size: 14px !important;
+    margin-bottom: 23px !important;
+  }
+  .footer .footer__social-item {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__social img {
+    width: 70%;
   }
 }
