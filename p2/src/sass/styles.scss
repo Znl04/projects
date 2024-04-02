@@ -1,5 +1,8 @@
 @import url('base/_variables.scss');
 
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: 'Museo Sans Cyrl';
 }
@@ -60,3 +63,4 @@
 @import url('blocks/_reviews.scss');
 @import url('blocks/_footer.scss');
 @import url('blocks/_modal.scss');
+@import url('blocks/_pageup.scss');
