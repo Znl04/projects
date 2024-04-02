@@ -32,3 +32,9 @@
   text-transform: uppercase;
   text-decoration: underline;
 }
+.advantages .advantages__wrapper .advantage__icon_animated {
+  animation: heartbeat 2s infinite ease;
+}
+.advantages .advantages__wrapper .advantage__icon_animated:hover {
+  animation-play-state: paused;
+}
