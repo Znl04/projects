@@ -1,4 +1,4 @@
-ul {
+ul, h1 {
   margin: 0;
   padding: 0;
 }
@@ -23,8 +23,8 @@ div.logotype {
   align-items: center;
 }
 div.error {
-  height: 100vh;
-  padding: 64px 128px 0 128px;
+  max-height: 1024px;
+  padding: 64px 128px 64px 128px;
   background-color: white;
 }
 header.header {
@@ -56,4 +56,47 @@ div.search {
 }
 div.search img {
   cursor: pointer;
+}
+
+/* individual styles for 404page */
+section.error_404 {
+  padding-top: 140px;
+  width: 540px;
+  display: block;
+  margin: 0 auto;
+}
+section.error_404 .info__main-wrapper {
+  width: 454px;
+  height: 233px;
+  display: block;
+  margin: 0 auto;
+}
+section.error_404 .info__main-wrapper img {
+  width: 100%;
+}
+.info .info__main-title {
+  margin-top: 64px;
+  color: #252F40;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 50px;
+}
+.info .info__main-descr {
+  margin-top: 24px;
+  text-align: center;
+  color: rgba(37, 47, 64, .5);
+  font-size: 24px;
+  line-height: auto;
+  font-weight: bold;
+}
+button {
+  display: block;
+  padding: 16px 32px;
+  background-color: #252F40;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 17px;
+  line-height: auto;
+  font-weight: bold;
+  margin: 48px auto 0 auto;
 }
