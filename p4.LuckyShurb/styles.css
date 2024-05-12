@@ -3,9 +3,6 @@
   padding: 0;
 }
 
-body {
-  padding: 1% 5%;
-}
 header .header__block {
   height: 350px;
   display: flex;
@@ -16,46 +13,69 @@ header img {
   height: 350px;
 }
 nav {
+  margin: 0 auto;
   margin-top: 40px;
+  padding: 0 80px;
+  width: 800px;
+  height: 40px;
+  background-color: teal;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
 }
 nav ul {
-  padding: 0 14em;
+  width: 100%;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 22px;
 }
 nav li a {
   text-decoration: none;
   color: black;
   font-size: 18px;
+  line-height: 18px;
   font-weight: bold;
 }
 
+
 #aboutus {
   margin-top: 40px;
+  padding: 220px 38px;
+  height: 390px;
+  background: url('./img/main_bg.png') center center/cover no-repeat;
 }
 #aboutus h1 {
   font-size: 40px;
   text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 32px;
 }
 #aboutus p {
   text-align: center;
   width: 800px;
   margin: 0 auto;
   margin-top: 60px;
+  color: white;
+  font-size: 84px;
 }
 #aboutus .aboutus__descrt {
   text-align: center;
 }
 
 #advantages {
-  padding-top: 120px;
+  padding-top: 90px;
   display: grid;
   grid-template-columns: repeat(3, 400px);
   grid-template-rows: 440px 40px;
   grid-auto-rows: 460px;
   gap: 10px 20px;
+  justify-content: center;
+}
+#advantages p, h2 {
+  color: white;
 }
 #advantages img {
   width: 300px;
@@ -68,10 +88,13 @@ nav li a {
   transition: 0.5s;
 }
 #advantages .advantages__item {
-  padding: 10px;
+  padding: 40px 10px 10px 10px;
+  border-radius: 14px;
+  background-color: #4b6b6b;
 }
 #advantages .advantages__item-img {
   text-align: center;
+  border-radius: 10px
 }
 #advantages .advantages__item-title {
   margin-top: 20px;
@@ -83,21 +106,36 @@ nav li a {
 }
 #advantages article:nth-child(4) {
   grid-column: 1 / 4;
+  background-color: #4b6b6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
 }
 #advantages .advantages__subitem {
   text-align: center;
 }
 
 footer {
-  padding: 60px 80px;
+  position: relative;
+  padding: 30px 80px;
   display: flex;
   justify-content: space-around;
 }
 footer img {
   object-fit: cover;
-  height: 170px;
+  height: 90px;
 }
 footer .footer__copyright {
   display: flex;
   align-items: center;
+}
+footer .footer__copyright::before {
+  position: absolute;
+  top: 50px;
+  transform: translateX(-45px);
+  content: ' ';
+  width: 200px;
+  height: 2px;
+  background-color: #4b6b6b;
 }
